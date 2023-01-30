@@ -202,3 +202,43 @@ form button:hover {
     color: var(--gray-font-color);
     padding-bottom: 15px;
 }
+
+@media (max-width: 700px) {
+.container {
+    max-width: 500px;
+}
+
+td, tr, th {
+    padding-left: 38px;
+}
+}
+
+@media (max-width: 600px) {
+.container {
+    max-width: 450px;
+}
+td, tr, th {
+    padding-left: 22px;
+}
+}
+
+@media (max-width: 530px) {
+.container {
+    max-width: 400px;
+}
+td, tr, th {
+    padding-left: 25px;
+    font-size: 0.9em;
+}
+}
+
+@media (max-width: 450px) {
+.container {
+    max-width: 330px;
+}
+td, tr, th {
+    padding-left: 12px;
+    font-size: 0.85em;
+}
+}
+
